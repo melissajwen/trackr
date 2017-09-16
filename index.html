@@ -1,75 +1,111 @@
-<!DOCTYPE html>
-
+<!DOCTYPE HTML>
 <html>
+	<head>
+		<title>TRACKR</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
 
-    <head>
-        <title>Tracking System</title>
-        <link rel="stylesheet" type="text/css" href="./bootstrap-3.3.7-dist/css/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="./style.css">
-    </head>
-    
-    <body>
-        <div class="container">
-            
-            <nav class="navbar navbar-default">
-                
-                <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                  <a class="navbar-brand" href="#">Trackr</a>
-                </div>
+			<div id="page-wrapper">
 
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                      
-                  <form class="navbar-form navbar-left">
-                    
-                  </form>
-                    
-                  <ul class="nav navbar-nav navbar-right">
-                      <li><a class="navbar-home" href="#">Home</a></li>
-                      <li><a class="navbar-Login" href="#">Login</a></li>
-                  </ul>
-                    
-                </div><!-- /.navbar-collapse -->
-              </div><!-- /.container-fluid -->
-            </nav>
+					<header id="header">
+						<h1><a href="generic.html">TRACKR</a></h1>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
 
-<!--
-            <div class="jumbotron">
-                <br>
-                <h1>Welcome to Trackr!</h1>
-                <p>Some text here.... I don't care what is it.</p>
-                <p><a class="btn btn-primary btn-lg" href="#" role="button">Let's start, shall we?</a></p>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-            </div>
--->
-            
-            
-            <table>
-                <tr>
-                    <th>
-                        <h1>Welcome to Trackr!</h1>
-                        <p>Some text here.... I don't care what is it.</p>
-                        <p><a class="btn btn-primary btn-lg" href="#" role="button">Let's start, shall we?</a></p>
-                    </th>
-            </table>
-           
-            
-            
-        </div>
-    </body>
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li><a href="#">Log In</a></li>
+								<li><a href="#">Sign Up</a></li>
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
 
+					<section id="wrapper">
+						<header>
+							<div class="inner">
+							<br><br><br><br><br><br>
+								<h2>TRACKR</h2>
+								<p>Automatically identify blacklisted persons through your security system.</p>
+							</div>
+						</header>
+
+						<!-- Content -->
+							<div class="wrapper">
+								<div class="inner">
+
+									<h3 class="major">WHAT WE DO</h3>
+									<p>We use state of the art face recognition technology to automatically scan and filter faces in security camera footage that belong to wanted criminals and other blacklisted persons. By comparing these faces with the photos in our database, we will be able to help find these people faster.</p>
+
+									<p>The system will alert a point of contact (whether it be an emergency contact, the police, or yourself) when a potential match shows up in our system. It will automatically send snapshots of the footage as well as details about when and where they were seen.</p>
+
+									<h3 class="major">OUR PHILOSOPHY</h3>
+									<p>In light of recent acts of terrorism worldwide, we want to take advantage of a security system already in place to help safeguard public spaces. Our software requires minimal setup and interference and is intuitive to use. Knowing when a potentially dangerous person is within your vicinity can help you and others take the appropriate measures to ensure the safety of all.</p>
+
+									<h3 class="major">EXPLORE OUR TECHNOLOGY</h3>
+									<a href="#" class="special">Learn more</a><br>
+
+								</div>
+							</div>
+
+					</section>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="inner">
+							<h2 class="major">PARTNER WITH US </h2>
+							<p>If you own a public space and would like to donate your footage for this cause, please fill out the contact form below.</p>
+
+
+							<form method="post" action="#">
+								<div class="field">
+									<label for="name">Name</label>
+									<input type="text" name="name" id="name" />
+								</div>
+								<div class="field">
+									<label for="email">Email</label>
+									<input type="email" name="email" id="email" />
+								</div>
+								<div class="field">
+									<label for="message">Message</label>
+									<textarea name="message" id="message" rows="4"></textarea>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+							<ul class="contact">
+								<li class="fa-home">
+									Hack the North @ University of Waterloo<br />
+									200 University Ave W<br />
+									Waterloo, ON N2L 3G1
+								</li>
+								<li class="fa-phone">(123) 456-7890</li>
+								<li class="fa-envelope"><a href="#">hello@trackr.com</a></li>
+								<li class="fa-twitter"><a href="#">twitter.com/trackr</a></li>
+								<li class="fa-facebook"><a href="#">facebook.com/trackr</a></li>
+								<li class="fa-instagram"><a href="#">instagram.com/trackr</a></li>
+							</ul>
+							<ul class="copyright">
+								<li>Trackr 2017. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
