@@ -1715,7 +1715,6 @@
 			font-weight: 700;
 			letter-spacing: 0.1em;
 			margin: 0 0 2em 0;
-			text-transform: uppercase;
 		}
 
 			a.special:not(.button):before {
