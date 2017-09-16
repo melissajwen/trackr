@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/melissajwen/htn/issues"
   },
-  "homepage": "https://github.com/melissajwen/htn#readme"
+  "homepage": "https://github.com/melissajwen/htn#readme",
+  "dependencies": {
+    "canvas2image": "^1.0.5"
+  }
 }
