@@ -7,28 +7,37 @@
   <script type="text/javascript" src="node_modules/canvas2image/canvas2image.js"></script>
   <script src="build/tracking-min.js"></script>
   <script src="build/data/face-min.js"></script>
+  <script src="build/data/eye.js"></script>
+  <script src="build/data/mouth.js"></script>
   <script src="assets/stats.min.js"></script>
   <script src="webcam.js"></script>
 
   <style>
   video, canvas {
-    margin-left: 230px;
-    margin-top: 120px;
+    height: 1200;
+    width: 700;
     position: absolute;
   }
+  #stats{
+    display: none;
+  }
+
   </style>
 </head>
 <body>
-  <div class="demo-title">
-    <p><a href="http://trackingjs.com" target="_parent">tracking.js</a> － get user's webcam and detect faces</p>
+
+  <div style="z-index:-1" class="demo-frame">
+
+
+
+      <video id="video" style="z-index:-1" width="1200" height="700" preload autoplay loop muted></video>
+      <canvas id="canvas" style="z-index:-1" width="1200" height="700"></canvas>
+
+    
   </div>
 
-  <div class="demo-frame">
-    <div class="demo-container">
-      <video id="video" width="320" height="240" preload autoplay loop muted></video>
-      <canvas id="canvas" width="320" height="240"></canvas>
-    </div>
-  </div>
+  <button id="button" style="z-index: 10;position:absolute; bottom: 0;">Testing</button>
+
 
 
 </body>
