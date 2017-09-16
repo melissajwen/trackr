@@ -2,21 +2,45 @@ body {
     background-color: cadetblue;
 }
 
-.notice {
+body .container h1 {
+    font-size: 50px;
+    text-align: center;
+    color: inherit;
+}
+
+hr {
+    background-color: inherit;
+    border-left-width: 2px;
+}
+
+table {
+    width:  100%;
+    height: 100%;
+    border-radius: 10px;
     color: inherit;
     background-color: #eee;
-    height: 300px;
-    border-radius: 10px;
 }
 
-.notice-left {
-    margin-left: 15px;
+table h1 {
+   padding-top: 10%;
+   padding-left: 2%;
+   padding-bottom: 2%; 
+   font-size: 60px;
 }
 
-.notice-right {
-    margin-right: 15px;
+table p {
+    padding-left: 2%;
+    padding-bottom: 2%;
+    font-size: 20px;
 }
 
-.empty {
-    margin-left: 100%;
+.container .navbar {
+    margin-top: 2%;
+}
+
+.square {
+    width: 35%;
+    height: 500px;
+    border: 1px solid white;
+    background-color: white;
 }
