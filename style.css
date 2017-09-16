@@ -1,0 +1,22 @@
+body {
+    background-color: cadetblue;
+}
+
+.notice {
+    color: inherit;
+    background-color: #eee;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.notice-left {
+    margin-left: 15px;
+}
+
+.notice-right {
+    margin-right: 15px;
+}
+
+.empty {
+    margin-left: 100%;
+}
