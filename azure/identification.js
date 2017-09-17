@@ -278,7 +278,7 @@ setTimeout(function() {
 // }, 26000);
 
 setTimeout(function() {
-    newFaceDetect('https://i.imgur.com/54HXxzL.jpg');
+    newFaceDetect('`https://i.imgur.com/54HXxzL.jpg`);
 }, 26000);
 
 
