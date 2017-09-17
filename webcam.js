@@ -34,6 +34,9 @@ tracker.on('track', function(event) {
     context.drawImage(video, rect.x, rect.y, rect.width, rect.height, 0, 0, rect.width, rect.height);
     var img = canvas.toDataURL("image/png");
 
+    console.log('move');
+    document.getElementById('btn-download').click();
+
 
 
     context.strokeStyle = '#ff0000';
@@ -51,16 +54,6 @@ tracker.on('track', function(event) {
 });
 
 
-
-var takeSnapshot = function(canvas) {
-    console.log('SNAP??');
-    // console.log(canvas.toDataURL('image/png'));
-    // console.log('button has been clicked.');
-    Webcam.snap( function(data_uri) {
-      postUri(data_uri);
-    });
-
-  };
 };
 
 

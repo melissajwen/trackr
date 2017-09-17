@@ -6,7 +6,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
         
-        
+        <style>
+          #stats{
+            display: none;
+          }
+          </style>
         
 	</head>
     
@@ -47,33 +51,28 @@
                 <div class="inner">
                     <table class="special">
                         <tr>
-                            <th class="tLeft">
+                            <div class="tLeft__div">
+                            <th class="tLeft__webcam">
                                 <h2 class="tH2">WEBCAM</h2>
                                 <p>Automat cvically identify blacklisted persons through your security system.</p>
-                                <br>
-                                <br>
+                  
+                                
                             </th>
-                            <th class="tLeft">
+                            <th class="tLeft__webcam">
                                 <h2 class="tH2">How Does This Work?</h2>
                                 <p>The webcam will automatically take a photo when it scans a face.</p>
                                 <p>Then the photo will be updating to our database and comparing to other photo from the database.</p>
                                 <br>
                                 <br>
                             </th>
+                            </div>
                             <td class="tRight" rowspan="2">
                                 <div style="z-index:-1" class="demo-frame">
                                     <video id="video" style="z-index:-1" width="1200" height="700" preload autoplay loop muted></video>
                                 <canvas id="canvas" style="z-index:-1" width="1200" height="700"></canvas>
                                 </div>
-<!--                                <button id="button" style="z-index: 10;position:absolute; bottom: 0;">Testing</button>-->
-                                <!--  David      -->
-                            <script type="text/javascript" src="node_modules/canvas2image/canvas2image.js"></script>
-                            <script src="build/tracking-min.js"></script>
-                            <script src="build/data/face-min.js"></script>
-                            <script src="build/data/eye.js"></script>
-                            <script src="build/data/mouth.js"></script>
-                            <script src="assets/stats.min.js"></script>
-                            <script src="webcam.js"></script>
+                            <a href='#' id="btn-download" class="button-download" download="image.png" style="z-index: 10;position:absolute; bottom: -70;">Resting</a>
+   
                             </td>
                         </tr>
 
@@ -87,6 +86,12 @@
 		<script src="assets/js/jquery.scrollex.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
+        <script src="build/tracking-min.js"></script>
+        <script src="build/data/face-min.js"></script>
+        <script src="build/data/eye.js"></script>
+        <script src="build/data/mouth.js"></script>
+        <script src="assets/stats.min.js"></script>
+        <script src="webcam.js"></script>
         
 	</body>
 </html>

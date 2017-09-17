@@ -277,8 +277,12 @@ setTimeout(function() {
 // }
 // }, 26000);
 
+// var i = 0;
+// while (true) {
+
+// }
 setTimeout(function() {
-    newFaceDetect('`https://i.imgur.com/54HXxzL.jpg`);
+    newFaceDetect('file:///Users/davidkwon/Downloads/New%20Doc%202017-05-25.jpg');
 }, 26000);
 
 
