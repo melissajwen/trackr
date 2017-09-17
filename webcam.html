@@ -7,11 +7,10 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
         
         <style>
-          #stats{
-            display: none;
-          }
-          </style>
-        
+            #stats{
+                display: none;
+            }
+        </style>
 	</head>
     
 	<body>
@@ -24,34 +23,34 @@
 				</header>
 
             <nav id="menu">
-					<div class="inner">
-						<h2>Log In / Sign Up</h2>
-						<ul>
-						<form method="post" action="#">
-							<div class="field">
-								<label for="name">Username:</label>
-								<input type="text" name="name" id="name" />
-							</div>
-							<div class="field">
-								<label for="email">Password:</label>
-								<input type="email" name="email" id="email" />
-							</div>
-							<ul class="actions">
-								<li><input type="submit" value="Log in" /></li>
-							</ul>
-							<ul class="actions">
-								<li><input type="submit" value="Register" /></li>
-							</ul>
-						</form>
+				<div class="inner">
+					<h2>Log In / Sign Up</h2>
+					<ul>
+					<form method="post" action="#">
+						<div class="field">
+							<label for="name">Username:</label>
+							<input type="text" name="name" id="name" />
+						</div>
+						<div class="field">
+							<label for="email">Password:</label>
+							<input type="email" name="email" id="email" />
+						</div>
+						<ul class="actions">
+							<li><input type="submit" value="Log in" /></li>
 						</ul>
-					</div>
-				</nav>
+						<ul class="actions">
+							<li><input type="submit" value="Register" /></li>
+						</ul>
+					</form>
+					</ul>
+				</div>
+			</nav>
             
             <section id="wrapper">
                 <div class="inner">
                     <table class="special">
                         <tr>
-                            <th class="tLeft__webcam" rowspan="2">
+                            <th class="tLeft__webcam">
                                 <h2 class="major">How Does This Work?</h2>
                                 <p>The webcam will automatically take a photo when it scans a face.</p>
                                 <p>Then the photo will be updating to our database and comparing to other photo from the database.</p>
@@ -65,15 +64,12 @@
                                 <canvas id="canvas" style="z-index:-1" width="1200" height="700"></canvas>
                                 </div>
                             <a href='#' id="btn-download" class="button-download" download="image.png" style="z-index: 10;position:absolute; bottom: -70;">Resting</a>
-   
                             </td>
                         </tr>
-
                     </table>
                 </div>
             </section>
 		</div>
-
 		<script src="assets/js/skel.min.js"></script>
 		<script src="assets/js/jquery.min.js"></script>
 		<script src="assets/js/jquery.scrollex.min.js"></script>
@@ -85,6 +81,5 @@
         <script src="build/data/mouth.js"></script>
         <script src="assets/stats.min.js"></script>
         <script src="webcam.js"></script>
-        
 	</body>
 </html>
